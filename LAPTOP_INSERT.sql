@@ -1,0 +1,6 @@
+INSERT INTO laptop (model,speed,ram,hd,price,screen) VALUES ("1298",350,32,4,700.00,11)
+INSERT INTO laptop (model,speed,ram,hd,price,screen) VALUES ("1321",500,64,8,970.00,12)
+INSERT INTO laptop (model,speed,ram,hd,price,screen) VALUES ("1750",750,128,12,1200.00,14)
+INSERT INTO laptop (model,speed,ram,hd,price,screen) VALUES ("1298",600,64,10,1050.00,15)
+INSERT INTO laptop (model,speed,ram,hd,price,screen) VALUES ("1752",750,128,10,1150.00,14)
+INSERT INTO laptop (model,speed,ram,hd,price,screen) VALUES ("1298",450,64,10,950.00,12)

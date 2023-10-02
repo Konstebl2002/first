@@ -1,0 +1,6 @@
+INSERT INTO printer (model,color,type_pri,price) VALUES ("1276","n","Laser",400.00)
+INSERT INTO printer (model,color,type_pri,price) VALUES ("1433","y","Jet",270.00)
+INSERT INTO printer (model,color,type_pri,price) VALUES ("1434","y","Jet",290.00)
+INSERT INTO printer (model,color,type_pri,price) VALUES ("1401","n","Matrix",150.00)
+INSERT INTO printer (model,color,type_pri,price) VALUES ("1408","n","Matrix",270.00)
+INSERT INTO printer (model,color,type_pri,price) VALUES ("1288","n","Laser",400.00)
