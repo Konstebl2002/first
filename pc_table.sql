@@ -8,5 +8,5 @@ CREATE TABLE pc
     cd character varying(10) COLLATE NOT NULL,
     price numeric NOT NULL,
     CONSTRAINT pc_pkey PRIMARY KEY (code),
-    CONSTRAINT fk_pc FOREIGN KEY (model)
+    CONSTRAINT fk_pc_product FOREIGN KEY (model) REFERENCES product(model)
 )

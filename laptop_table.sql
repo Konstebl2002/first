@@ -8,5 +8,5 @@ CREATE TABLE laptop
     price numeric NOT NULL,
     screen smallint NOT NULL,
     CONSTRAINT laptop_pkey PRIMARY KEY (code),
-    CONSTRAINT fk_laptop FOREIGN KEY (model)
+    CONSTRAINT fk_laptop FOREIGN KEY (model) REFERENCES product(model)
 )

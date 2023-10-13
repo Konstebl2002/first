@@ -6,5 +6,5 @@ CREATE TABLE printer
     type_pri character varying(10) NOT NULL,
     price numeric NOT NULL,
     CONSTRAINT printer_pkey PRIMARY KEY (code),
-    CONSTRAINT fk_printer FOREIGN KEY (model)
+    CONSTRAINT fk_printer_product FOREIGN KEY (model) REFERENCES product(model)
 )
